@@ -1,0 +1,8 @@
+vhdtdtfi -lib work displayModule.vhd -prj Organy -o displayModule.spl -module displayModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e displayModule.spl {C:/Users/lab/Desktop/UCISW2 Projekt/Organy/displayModule.sym} 
+vhdtdtfi -lib work displayModule.vhd -prj Organy -o displayModule.spl -module displayModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e displayModule.spl {C:/Users/lab/Desktop/UCISW2 Projekt/Organy/displayModule.sym} 
+vhdtdtfi -lib work displayModule.vhd -prj Organy -o displayModule.spl -module displayModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e displayModule.spl {C:/Users/lab/Desktop/UCISW2 Projekt/Organy/displayModule.sym} 
+vhdtdtfi -lib work displayModule.vhd -prj Organy -o displayModule.spl -module displayModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e displayModule.spl {C:/Users/lab/Desktop/UCISW2 Projekt/Organy/displayModule.sym} 

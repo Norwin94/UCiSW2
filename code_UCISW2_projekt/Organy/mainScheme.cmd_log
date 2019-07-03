@@ -1,0 +1,172 @@
+xst -intstyle ise -ifn "D:/Nauka/UCiSW2/UCISW2 Projekt cz 1/Organy/mainScheme.xst" -ofn "D:/Nauka/UCiSW2/UCISW2 Projekt cz 1/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "D:/Nauka/UCiSW2/UCISW2 Projekt cz 1/Organy/mainScheme.xst" -ofn "D:/Nauka/UCiSW2/UCISW2 Projekt cz 1/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+xst -intstyle ise -ifn "D:/Nauka/UCiSW2/UCISW2 Projekt cz 1/Organy/mainScheme.xst" -ofn "D:/Nauka/UCiSW2/UCISW2 Projekt cz 1/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "F:/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "F:/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "F:/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "F:/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+xst -intstyle ise -ifn "F:/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "F:/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "F:/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "F:/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+xst -intstyle ise -ifn "F:/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "F:/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Desktop/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.xst" -ofn "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-4 "mainScheme.ngc" mainScheme.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainScheme_map.ncd mainScheme.ngd mainScheme.pcf 
+par -w -intstyle ise -ol high -t 1 mainScheme_map.ncd mainScheme.ncd mainScheme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainScheme.twx mainScheme.ncd -o mainScheme.twr mainScheme.pcf -ucf GenIO.ucf -ucf ADC_DAC.ucf 
+bitgen -intstyle ise -f mainScheme.ut mainScheme.ncd 

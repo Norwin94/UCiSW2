@@ -1,0 +1,10 @@
+vhdtdtfi -lib work soundModule.vhd -prj Organy -o soundModule.spl -module soundModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work soundModule.vhd -prj Organy -o soundModule.spl -module soundModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work soundModule.vhd -prj Organy -o soundModule.spl -module soundModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e soundModule.spl {D:/Nauka/UCiSW2/UCISW2 Projekt cz 1/Organy/soundModule.sym} 
+vhdtdtfi -lib work soundModule.vhd -prj Organy -o soundModule.spl -module soundModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e soundModule.spl {C:/Users/lab/Desktop/UCISW2 Projekt/Organy/soundModule.sym} 
+vhdtdtfi -lib work soundModule.vhd -prj Organy -o soundModule.spl -module soundModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e soundModule.spl {C:/Users/lab/Desktop/UCISW2 Projekt/Organy/soundModule.sym} 
+vhdtdtfi -lib work soundModule.vhd -prj Organy -o soundModule.spl -module soundModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e soundModule.spl {C:/Users/lab/Desktop/UCISW2 Projekt/Organy/soundModule.sym} 

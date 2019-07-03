@@ -1,0 +1,29 @@
+Command line:
+   test_kbdModule_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50188
+
+Mon Jun 03 08:30:29 2019
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5173.64 Meg
+
+ Total Signals          : 12
+ Total Nets             : 16
+ Total Signal Drivers   : 6
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 3
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 395
+Total Line Count : 42
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 5173.64 Meg
+
+Mon Jun 03 08:46:09 2019
+

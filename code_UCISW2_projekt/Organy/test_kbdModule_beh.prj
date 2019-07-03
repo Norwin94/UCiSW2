@@ -1,0 +1,2 @@
+vhdl work "kbdModule.vhd"
+vhdl work "test_kbdModule.vhd"

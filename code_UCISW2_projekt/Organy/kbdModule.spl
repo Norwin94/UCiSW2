@@ -1,0 +1,9 @@
+[Inputs]
+KbdE0
+KbdF0
+KbdRdy
+Clk
+=KbdDo[7:0]=
+[Outputs]
+=frequency[3:0]=
+[BiDir]

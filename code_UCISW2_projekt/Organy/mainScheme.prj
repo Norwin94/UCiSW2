@@ -1,0 +1,4 @@
+vhdl work "soundModule.vhd"
+vhdl work "kbdModule.vhd"
+vhdl work "displayModule.vhd"
+vhdl work "mainScheme.vhf"

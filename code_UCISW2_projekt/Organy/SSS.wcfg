@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/.Xilinx/Organy/testZegarow_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testzegarow" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/testzegarow/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testzegarow/startpodglad" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">startpodglad</obj_property>
+      <obj_property name="ObjectShortName">startpodglad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testzegarow/counterpodglad" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">counterpodglad</obj_property>
+      <obj_property name="ObjectShortName">counterpodglad</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testzegarow/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testzegarow/uut/stepcounter" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stepcounter</obj_property>
+      <obj_property name="ObjectShortName">stepcounter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testzegarow/uut/counter" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
+   </wvobject>
+</wave_config>

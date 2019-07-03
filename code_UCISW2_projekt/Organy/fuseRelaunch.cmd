@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "G:/27 05/UCISW2 Projekt/Organy/test_kbdModule_isim_beh.exe" -prj "G:/27 05/UCISW2 Projekt/Organy/test_kbdModule_beh.prj" "work.test_kbdModule" 

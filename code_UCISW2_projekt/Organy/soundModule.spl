@@ -1,0 +1,9 @@
+[Inputs]
+clk
+=freq_in[3:0]=
+[Outputs]
+start
+=freq_out[11:0]=
+=command[3:0]=
+=address[3:0]=
+[BiDir]

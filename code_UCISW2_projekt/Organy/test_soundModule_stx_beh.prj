@@ -1,0 +1,2 @@
+vhdl isim_temp "soundModule.vhd"
+vhdl isim_temp "test_soundModule.vhd"

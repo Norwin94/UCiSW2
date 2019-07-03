@@ -1,0 +1,8 @@
+EN soundmodule NULL "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/soundModule.vhd" sub00/vhpl02 1558954758
+AR displaymodule behavioral "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/displayModule.vhd" sub00/vhpl07 1558954761
+EN displaymodule NULL "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/displayModule.vhd" sub00/vhpl06 1558954760
+EN kbdmodule NULL "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/kbdModule.vhd" sub00/vhpl00 1558954756
+AR soundmodule behavioral "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/soundModule.vhd" sub00/vhpl03 1558954759
+EN mainscheme NULL "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.vhf" sub00/vhpl04 1558954762
+AR kbdmodule behavioral "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/kbdModule.vhd" sub00/vhpl01 1558954757
+AR mainscheme behavioral "C:/Users/lab/Downloads/UCISW2-Projekt/UCISW2 Projekt/Organy/mainScheme.vhf" sub00/vhpl05 1558954763

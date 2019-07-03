@@ -1,0 +1,2 @@
+vhdtdtfi -lib work kbdModule.vhd -prj Organy -o kbdModule.spl -module kbdModule -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e kbdModule.spl {D:/Nauka/UCiSW2/UCISW2 Projekt cz 1/Organy/kbdModule.sym} 
